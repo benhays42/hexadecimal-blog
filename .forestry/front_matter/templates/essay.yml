@@ -1,4 +1,18 @@
 ---
 label: Essay
 hide_body: false
-fields: []
+fields:
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Tags
+- name: text-area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text-area
