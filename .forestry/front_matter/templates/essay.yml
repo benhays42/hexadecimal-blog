@@ -7,14 +7,17 @@ fields:
   default: []
   label: Tags
   description: Tags
-- name: text-area
-  type: textarea
-  default: ''
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Enter title
+- name: subtitle
+  type: text
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Text-area
+  label: Subtitle
+  description: Enter subtitle
 pages:
 - content/posts/ctf-writeups/TryHackMe-Gallery-Writeup.md
