@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Text-area
+pages:
+- content/posts/ctf-writeups/TryHackMe-Gallery-Writeup.md
